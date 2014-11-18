@@ -12,8 +12,8 @@ import utfpr.ct.dainf.if62c.avaliacao.Complexo;
 public class Avaliacao1 {
 
     public static void main(String[] args) {
-        //System.out.println("raizes de x²+5x+4 = 0/n/n"+"x1 = "+raizesEquacao(1,5,4)[0]+"/tx2 = "+raizesEquacao(1,5,4)[1]);
-        //System.out.println("raizes de y²+2y+5 = 0/n/n"+"x1 = "+raizesEquacao(1,2,5)[0]+"/tx2 = "+raizesEquacao(1,2,5)[1]);
+        System.out.println("raizes de x²+5x+4 = 0/n/n"+"x1 = "+raizesEquacao(1,5,4)[0]+"/tx2 = "+raizesEquacao(1,5,4)[1]);
+        System.out.println("raizes de y²+2y+5 = 0/n/n"+"x1 = "+raizesEquacao(1,2,5)[0]+"/tx2 = "+raizesEquacao(1,2,5)[1]);
     }
     
     public static Complexo[] raizesEquacao(Complexo a, Complexo b, Complexo c){
